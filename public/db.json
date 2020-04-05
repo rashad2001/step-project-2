@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1234",
+    "name": "list1",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
+    "color": "blue"
+
+  },
+  {
+    "id": "123",
+    "name": "list2",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
+    "color": "green"
+  },
+  {
+    "id": "345",
+    "name": "list3",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
+    "color": "yellow"
+  },
+  {
+    "id": "425",
+    "name": "list4",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
+    "color": "green"
+  },
+  {
+    "id": "346",
+    "name": "list5",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
+    "color": "blue"
+  }
+]

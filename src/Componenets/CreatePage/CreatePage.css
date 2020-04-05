@@ -1,0 +1,30 @@
+.form-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-input{
+   margin: 20px 0;
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.text-input{
+    width: 500px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.button-submit{
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

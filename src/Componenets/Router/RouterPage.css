@@ -1,0 +1,25 @@
+.header-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-button{
+    width: 90px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.actual-button{
+    margin:0 45px;
+    width: 90px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 70px;
+}
