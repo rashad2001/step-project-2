@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
+    border: 1px solid black;
 }
 .create-button{
     width: 90px;
