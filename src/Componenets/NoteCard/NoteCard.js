@@ -22,7 +22,7 @@ class NoteCard extends Component {
                         return  <div key={ind} className="card">
                             <div className='album-info'>
                                 <h6 className='album-name'>{card.name}</h6>
-                                <p className='album-text' style={this.state.color}>{card.text}</p>
+                                <p className='album-text' style={{background: this.props.color}}>{card.text}</p>
 
 
 
