@@ -6,7 +6,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            albums: []
+            notes: []
 
         }
     }
@@ -17,7 +17,7 @@ class Home extends Component {
             .then(res => res.json())
             .then((data) => {
                 this.setState({
-                    albums: data
+                    notes: data
                 });
             })
     }
@@ -27,7 +27,7 @@ class Home extends Component {
         return (
             <div className='App'>
                 {
-                    this.state.albums.length > 0 ? <NoteItem albums={this.state.albums}/> : null
+                    this.state.notes.length > 0 ? <NoteItem notes={this.state.notes}/> : null
 
                 }
             </div>

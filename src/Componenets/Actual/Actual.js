@@ -1,36 +1,42 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 import "./Actual.css";
-import NoteItem from "../NoteItem/NoteItem";
-class Actual extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            albums: []
 
-        }
-    }
+class Actual extends Component {
+    state = {
+        albums: [],
+
+    };
+
+
     componentDidMount() {
         fetch('../../../db.json')
             .then(res => res.json())
             .then((data) => {
                 this.setState({
                     albums: data,
-
+                    completed:"false"
                 });
             })
     }
+
     render() {
-
+        const {id} = this.props;
         return (
-            <div className='App'>
-                {
 
-                    this.state.albums.length > 0 ? <NoteItem albums={this.state.albums}/> : null
+            <div className="actual-area">
+                {this.state.albums.map((card,ind) => (
 
-                }
+                    <div
+                        className="actual-item"
+                        style={{ backgroundColor: card.backgroundColor }}
+                        key={id}
+                    >
+                        <h3 className="actual-h3" key= {ind} >{card.name}</h3>
+                        <div className="actual-text" key= {ind} >{card.text}</div>
+                    </div>
+                ))}
             </div>
         );
     }
 }
-
 export default Actual;

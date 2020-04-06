@@ -7,13 +7,13 @@ class NoteItem extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            allCards: props.albums
+            allCards: props.notes
         }
     }
 
     render() {
         return<div className='album'>
-            <NoteCard albums={this.state.allCards} />
+            <NoteCard notes={this.state.allCards} />
         </div>;
     }
 

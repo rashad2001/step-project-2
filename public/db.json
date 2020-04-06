@@ -25,7 +25,30 @@
     "id": "425",
     "name": "list4",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa doloribus fugit incidunt iusto voluptas. Aliquid amet cupiditate ducimus, eaque eius ex fugit harum labore odio perferendis qui reiciendis sint voluptatem?",
-    "color": "green",
+    "color": {
+      "hsl": {
+        "h": 0,
+        "s": 0.6323865491348352,
+        "l": 0.2606613,
+        "a": 1
+      },
+      "hex": "#6d1818",
+      "rgb": {
+        "r": 109,
+        "g": 24,
+        "b": 24,
+        "a": 1
+      },
+      "hsv": {
+        "h": 0,
+        "s": 0.7748,
+        "v": 0.4255,
+        "a": 1
+      },
+      "oldHue": 0,
+      "source": "rgb"
+    },
+
     "completed": "true"
   },
   {
