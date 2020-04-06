@@ -23,13 +23,13 @@ class Actual extends Component {
         const {id} = this.props;
         return (
 
-            <div className="actual-area">
+            <div className="actual">
                 {this.state.notes.map((card,ind) => (
 
                     <div
-                        className="actual-item"
-                        style={{ backgroundColor: card.color }}
-                        key={id}
+                        className="actual-item" style={{ backgroundColor: card.color }} key={id}
+
+
                     >
                         <h3 className="actual-h3" key= {ind} >{card.name}</h3>
                         <div className="actual-text" key= {ind} >{card.text}</div>
