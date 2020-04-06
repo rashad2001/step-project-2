@@ -3,7 +3,7 @@ import "./Actual.css";
 
 class Actual extends Component {
     state = {
-        albums: [],
+        notes: [],
 
     };
 
@@ -13,7 +13,7 @@ class Actual extends Component {
             .then(res => res.json())
             .then((data) => {
                 this.setState({
-                    albums: data,
+                    notes: data,
                     completed:"false"
                 });
             })
@@ -24,11 +24,11 @@ class Actual extends Component {
         return (
 
             <div className="actual-area">
-                {this.state.albums.map((card,ind) => (
+                {this.state.notes.map((card,ind) => (
 
                     <div
                         className="actual-item"
-                        style={{ backgroundColor: card.backgroundColor }}
+                        style={{ backgroundColor: card.color }}
                         key={id}
                     >
                         <h3 className="actual-h3" key= {ind} >{card.name}</h3>

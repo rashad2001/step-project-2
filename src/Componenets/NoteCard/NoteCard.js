@@ -25,7 +25,7 @@ class NoteCard extends Component {
                 {
                     notes.map((card, ind) => {
                         return  <div key={ind} className="card">
-                            <div className='album-info' style={{background: this.props.color}} onClick={this.openNote}>
+                            <div className='album-info' style={{ backgroundColor: card.color }} onClick={this.openNote}>
                                 <h6 className='album-name'>{card.name}</h6>
                                 <p className='album-text' >{card.text}</p>
 

@@ -7,3 +7,6 @@
 .album-name{
     font-size: 15px;
 }
+.card{
+    cursor: pointer;
+}
